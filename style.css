@@ -1,0 +1,138 @@
+ *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: cursive;
+ } 
+
+.image{
+    margin-left: 680px;
+    margin-top: 100px;
+    cursor: pointer;
+     object-fit: contain; 
+    background: transparent;
+    mix-blend-mode: multiply;
+ } 
+
+ .heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+ /* letter-spacing: 2px; */
+    
+}
+
+.heading span {
+    margin-right: 10px;
+}
+
+
+#para1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.buuton-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+#red{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 120px;
+    background-color: red;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+#red:hover{
+    border: 4px solid black;
+}
+
+#green{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 120px;
+    background-color: green;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    margin-right: 10px;
+} 
+    
+#green:hover{
+    border: 4px solid black;
+}
+
+
+#blue{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 120px;
+    background-color: blue;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    margin-right: 10px;
+} 
+
+ #blue:hover{
+    border: 4px solid black;
+}
+
+
+#yellow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 120px;
+    background-color: yellow;
+    border-radius: 20px;
+    color: black;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+#yellow:hover{
+    border: 4px solid black;
+} 
+
+
+#para2{
+    margin-left: 550px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight:600;
+    padding: 1rem;
+    border-radius: 20px;
+}
+ 
+.btn{
+   margin-left: 680px;
+   padding: 1rem;
+   font-size: large;
+   font-weight: 700;
+   border-radius: 20px;
+   border: none;
+   background-color: rgb(119, 119, 214);
+}   
